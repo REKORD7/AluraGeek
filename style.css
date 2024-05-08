@@ -1,0 +1,12 @@
+@import "./styles/variables.css";
+@import "./styles/header.css";
+
+/*=== Main Color Variables ===*/
+:root{
+    --main-color: #B40E00;
+    --title-color: white;
+}
+
+body{
+    font-family: "Press Start 2P";
+}
