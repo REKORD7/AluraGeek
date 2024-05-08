@@ -1,10 +1,17 @@
-@import "./styles/variables.css";
+@import "./styles/reset.css";
 @import "./styles/header.css";
+@import "./styles/addProduct.css";
+
 
 /*=== Main Color Variables ===*/
 :root{
     --main-color: #B40E00;
-    --title-color: white;
+    --secondary-color: #20F77B;
+    --title-color-primary: white;
+    --title-color-secondary: black;
+    --shadow: gray;    
+    --form-color: #03318C;
+    --fondo-btn-enviar: #14BF05;
 }
 
 body{
