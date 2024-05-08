@@ -1,11 +1,13 @@
 section.header_container{
     background: var(--main-color);
-    width: 430px;
+    width: 425px;
     height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 0px var(--shadow);
 }
 
 header{
@@ -19,7 +21,7 @@ header{
 }
 
 .title_img{
-    width: 40%;
+    width: 35%;
     height: 56px;
 }
 
@@ -28,7 +30,7 @@ header{
     align-content: center;
     font-weight: 400;
     font-size: 24px;
-    color: var(--title-color);
+    color: var(--title-color-primary);
     height: 51px;
     line-height: 1em;
     width: 60%;
