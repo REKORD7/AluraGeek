@@ -19,15 +19,20 @@
             <h1 class="title">AluraGeek</h1>
         </header>
     </section>
-    <section class="add_procuct">
-        <h2 class="title">Agregar</h2>
-        <h2 class="title">Producto:</h2>
-        <form class="">
-            <input type="text" placeholder="nombre...">
-            <input type="number" placeholder="precio...">
-            <input type="url" placeholder="imagen...">
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpiar</button>
+    
+    <section class="add_product">
+        <div class="product_title_container">
+            <h2 class="product_title">Agregar</h2>
+            <h2 class="product_title">Producto:</h2>
+        </div>
+        <form class="product_form">
+            <input class="input" id="nombre" type="text" placeholder="nombre...">
+            <input id="precio" type="number" placeholder="precio...">
+            <input id="imagen" type="url" placeholder="imagen....">
+            <div class="btns_container">
+                <button class="btn btn_submit" type="submit">Enviar</button>
+                <button class="btn btn_reset" type="reset">Limpiar</button>
+            </div>
         </form>
     </section>
     <section class="my_products">
