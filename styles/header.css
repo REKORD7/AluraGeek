@@ -1,0 +1,35 @@
+section.header_container{
+    background: var(--main-color);
+    width: 430px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    margin-left: 15px;
+}
+
+.title_img{
+    width: 40%;
+    height: 56px;
+}
+
+.title{
+    display: block;
+    align-content: center;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--title-color);
+    height: 51px;
+    line-height: 1em;
+    width: 60%;
+}
