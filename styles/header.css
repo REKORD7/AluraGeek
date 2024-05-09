@@ -1,4 +1,4 @@
-section.header_container{
+section.header_container{    
     background: var(--main-color);
     width: 425px;
     height: 100px;
@@ -26,11 +26,13 @@ header{
 }
 
 .title{
+    font-family: "Press Start 2P";
+    font-weight: 500;
+    color: var(--title-color-primary);
     display: block;
     align-content: center;
     font-weight: 400;
-    font-size: 24px;
-    color: var(--title-color-primary);
+    font-size: 24px;    
     height: 51px;
     line-height: 1em;
     width: 60%;
