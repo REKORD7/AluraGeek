@@ -1,7 +1,8 @@
 @import "./styles/reset.css";
 @import "./styles/header.css";
 @import "./styles/addProduct.css";
-
+@import "./styles/myProducts.css";
+@import "./styles/footer.css";
 
 /*=== Main Color Variables ===*/
 :root{
@@ -14,12 +15,6 @@
     --fondo-btn-enviar: #14BF05;
     --fondo-btn-enviar2: #11A604;
     --btn-efec-color: #20e2d7;
+    --card-color: purple;
 }
 
-header, h1, h2{
-    font-family: "Press Start 2P";
-}
-
-input, button, h3, p{
-    font-family: "IBM Plex Mono";
-}
