@@ -16,6 +16,10 @@
     --btn-efec-color: #20e2d7;
 }
 
-body{
+header, h1, h2{
     font-family: "Press Start 2P";
+}
+
+input, button, h3, p{
+    font-family: "IBM Plex Mono";
 }
