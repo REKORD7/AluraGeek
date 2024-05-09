@@ -31,6 +31,8 @@ section.add_product{
 }
 
 .product_form input{
+    font-weight: 100;
+    font-style: normal;
     width: 350px;
     height: 50px;
     font-weight: 600;
