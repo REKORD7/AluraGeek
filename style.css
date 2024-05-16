@@ -1,7 +1,6 @@
 @import "./styles/reset.css";
 @import "./styles/header.css";
-@import "./styles/addProduct.css";
-@import "./styles/myProducts.css";
+@import "./styles/products.css";
 @import "./styles/footer.css";
 
 /*=== Main Color Variables ===*/
@@ -10,7 +9,7 @@
     --secondary-color: #20F77B;
     --title-color-primary: white;
     --title-color-secondary: black;
-    --shadow: gray;    
+    --shadow: #8a878a;    
     --form-color: #03318C;
     --fondo-btn-enviar: #14BF05;
     --fondo-btn-enviar2: #11A604;

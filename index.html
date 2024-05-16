@@ -20,46 +20,29 @@
         </header>
     </section>
     
-    <section class="add_product">
-        <div class="product_title_container">
-            <h2 class="product_title">Agregar</h2>
-            <h2 class="product_title">Producto:</h2>
-        </div>
-        <form class="product_form">
-            <input class="input" id="nombre" type="text" placeholder="nombre...">
-            <input id="precio" type="number" placeholder="precio...">
-            <input id="imagen" type="url" placeholder="imagen....">
-            <div class="btns_container">
-                <button class="btn btn_submit" type="submit">Enviar</button>
-                <button class="btn btn_reset" type="reset">Limpiar</button>
+    <section class="products">
+        <div class="add_products">
+            <div class="product_title_container">
+                <h2 class="product_title">Agregar</h2>
+                <h2 class="product_title">Producto:</h2>
             </div>
-        </form>
-    </section>
-    <section class="my_products">
-        <h2 class="my_products_title">Mis Productos:</h2>
-        <ul class="product_list" data-product>
-            <li class="product_card">
-                <div class="img_container">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp" alt="imagen de Darth Vader">
+            <form class="product_form" data-form>
+                <input data-name type="text" placeholder="nombre..." required>
+                <input data-price type="number" placeholder="precio..." required>
+                <input data-image type="url" placeholder="imagen...." required>
+                <div class="btns_container">
+                    <button class="btn btn_submit" type="submit">Enviar</button>
+                    <button class="btn btn_reset" type="reset">Limpiar</button>
                 </div>
-                <div class="card_info">
-                    <h3 class="product_name">Stormtrooper</h3>
-                    <div class="card_price">
-                        <p>$ 20</p>
-                        <button class="delete_btn" data-id="${id}">
-                            <img src="./img/trash.png" alt="boton eliminar">
-                        </button>
-                    </div>
-                </div>
-            </li>
-            <!-- <li class="product_card">
-                <img src="./img/stormtropper.png" alt="tasa casco de stormtropper">
-                <h3 class="product_name">Stormtrooper</h3>
-                <p class="product_price">60.00</p>
-                <button class="delete"><img src="./img/trash.png" alt="icono de bote de basura"></button>
-            </li> -->
-        </ul>
+            </form>
+        </div>
+        <div class="my_products">
+            <h2 class="my_products_title">Mis Productos:</h2>
+            <ul class="product_list" data-product-series>
+            </ul>
+        </div>
     </section>
+
     <footer class="footer_container">
         <div class="alura_container">
             <img class="title_img" src="./img/hearts.png" alt="Dibujo de 3 corazones rojos">
@@ -68,5 +51,6 @@
         <p class="dev_by">Desarrollado por Manuel Gómez</p>
         <p class="school_year">Alura LATAM - 2024</p>
     </footer>
+    <script type="module" src="js/Controllers/main.js"></script>
 </body>
 </html>
