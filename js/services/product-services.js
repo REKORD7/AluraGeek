@@ -1,12 +1,12 @@
 const productList = () => {
-    return fetch("http://localhost:3000/products")
+    return fetch("https://fake-api-gold-seven.vercel.app/products")
     
     .then((res) => res.json())
     .catch((err) => console.log(err));
 };
 
 const createProduct = (name, price, image) => {
-    return fetch("http://localhost:3000/products", {
+    return fetch("https://fake-api-gold-seven.vercel.app/products", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, price, image })
@@ -16,7 +16,7 @@ const createProduct = (name, price, image) => {
 }
 
 const deleteProduct = (id) =>{
-    return fetch(`http://localhost:3000/products/${id}`, {
+    return fetch(`https://fake-api-gold-seven.vercel.app/products/${id}`, {
         method: "DELETE",
     })
     .then((res) => res.json())
