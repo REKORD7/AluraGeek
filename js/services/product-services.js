@@ -19,7 +19,7 @@ const deleteProduct = (id) =>{
     return fetch(`https://fake-api-gold-seven.vercel.app/products/${id}`, {
         method: "DELETE",
     })
-    .then((res) => res.json())
+    .then((res) => window.location.href = window.location.href)
     .catch((err) => console.log(err));
 }
 

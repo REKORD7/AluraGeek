@@ -29,6 +29,7 @@ function createCard(name, price, image, id) {
     deleteBtn.addEventListener("click", () => {
         const id = deleteBtn.getAttribute("data-id");
         servicesProducts.deleteProduct(id);
+
     })
 
     return card;
@@ -59,9 +60,9 @@ form.addEventListener("submit", (event) => {
     const image = document.querySelector("[data-image]").value;
 
     servicesProducts.createProduct(name,price,image)
-    .then((res) => console.log(res))
+    .then((res) => window.location.reload())
     .catch((err) => console.log(err));
 })
 
-render();
 
+render();
